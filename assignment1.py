@@ -4,8 +4,12 @@ def main():
 
     '''
     Assignment1
-        Handle cases where the user enters non-numeric input for the principal amount,
+        Challenge: Handle cases where the user enters non-numeric input for the principal amount,
         interest rate, or time period, and provide appropriate error messages.
+
+        Input: Prompt the user to enter the principal amount, interest rate (in percentage), and the time period (in years).
+        Processing: Calculate the simple interest using the formula: Simple Interest = (Principal * Rate * Time) / 100.
+        Output: Display the calculated simple interest.
     '''
     def get_nums():
         try:
